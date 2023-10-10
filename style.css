@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.parent{
+    font-size: 15px;
+    display: flex;
+    border-radius: 50px;
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 130px 80px 10px 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 180px;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 130px 80px 10px 50px;
+    width: 180px;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 130px 80px 10px 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 180px;
+}
+.sedans-button {
+    background-color: hsl(0, 0%, 95%);
+    border: 10px solid transparent;
+    color: hsl(31, 77%, 52%);
+    margin: 100px 70px 40px 20px;
+    border-radius: 25px;
+    width: 140px;
+    height: 30px;
+    padding: 10px 0px 20px 0px;
+}
+.suvs-button {
+    background-color: hsl(0, 0%, 95%);
+    border: 10px solid transparent;
+    border-radius: 25px;
+    color: hsl(184, 100%, 22%);
+    margin: 100px 70px 40px 20px;
+    padding: 10px 0px 20px 0px;
+    width: 140px;
+    height: 30px;
+}
+.luxury-button {
+    background-color: hsl(0, 0%, 95%);
+    border: 10px solid transparent;
+    color: hsl(179, 100%, 13%);
+    margin: 100px 70px 40px 20px;
+    border-radius: 25px;
+    padding: 10px 0px 20px 0px;
+    width: 140px;
+    height: 30px;
+}
