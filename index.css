@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.parent{
+    font-size: 15px;
+    display: flex;
+    border-radius: 50px;
+    text-align: left;
+    width: 50%;
+    color: white;
+}
